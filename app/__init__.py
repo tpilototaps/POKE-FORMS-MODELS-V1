@@ -1,7 +1,7 @@
 from flask import Flask
 from  config import Config
-from flask_migrate import Migrate #type:ignore
-from .models import db #type:ignore
+from flask_migrate import Migrate
+from .models import db
 from .auth.routes import auth
 app = Flask(__name__)
 
