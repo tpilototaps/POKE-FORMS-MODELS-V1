@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request
 from app.auth.forms import CreateUser, Login, PokemonSummons
 import requests
 
-from app.model import User
+from app.models import User
 
 auth = Blueprint('auth', __name__, template_folder='auth_templates')
 
